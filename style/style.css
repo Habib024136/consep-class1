@@ -78,15 +78,25 @@
 }
 .service-img{
     width: 80px;
+    margin-bottom: 10px;
 }
 .box{
     width: 230px;
-    height: 280px;
+    height: 289px;
     box-shadow: 4px 4px 15px gray;
     background-color: black;
     text-align: center;
     padding: 15px;
     color: white;
+}
+.p-description{
+    margin-top:7px;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.btn-primary-service{
+    margin-top: 6px;
+    padding: 6px;
 }
 
 
