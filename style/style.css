@@ -7,6 +7,8 @@
     background-color: red;
     color: white;
     border: none;
+    border-radius: 5px;
+    margin-top: 5px;
 }
 .menu-container{
     background-color:black;
@@ -40,8 +42,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color:white;
     height: 100vh;
-    background: grey;
+    background-image: url('./images/background.png'),
+    linear-gradient(45deg,#0f0b0b,#270303);
+    
  
 }
 .banner-img{
@@ -62,3 +67,26 @@
     justify-content: space-around;
     align-items: center;
 }
+/*service container style*/
+.service-container{
+    display: flex;
+    justify-content:space-around;
+    padding:20px;
+    background-color:;
+    color:white;
+
+}
+.service-img{
+    width: 80px;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+
