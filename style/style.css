@@ -2,6 +2,11 @@
     margin:0px;
     padding:0px;
 }
+footer{
+    background-color: #0f0b0b;
+    text-align: center;
+
+}
 .btn-primary{
     padding: 10px 20px;
     background-color: red;
@@ -58,6 +63,7 @@
     padding-top: 20px;
     font-size: 55px;
     font-weight: bold;
+    color:white;
 }
 .about{
     display: block;
@@ -66,13 +72,28 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+}
+.info-title{
+    font-size:34px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.info-description{
+    font-size: 17px;
+    margin:5px;
+    font-weight: bold;
+    font-weight: 400;
 }
 /*service container style*/
+.middle-part{
+    background-color:#0f0b0b;
+}
 .service-container{
     display: flex;
     justify-content:space-around;
     padding:20px;
-    background-color:;
+  
     color:white;
 
 }
@@ -82,7 +103,8 @@
 }
 .box{
     width: 230px;
-    height: 289px;
+    height: auto;
+    border-radius: 5px;
     box-shadow: 4px 4px 15px gray;
     background-color: black;
     text-align: center;
@@ -98,5 +120,37 @@
     margin-top: 6px;
     padding: 6px;
 }
+/* footer style start*/
+.footer-container{
+    display: flex;
 
+    justify-content: space-around;
+height: 100vh;
+align-items: center;
+  
+    color:white;
+}
+.main-footer{
+    height: 100vh;
+    background-color: #0f0b0b;
+    
+}
+.footer-hr{
+    color:white;
+}
+.footer-last{
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+.footer-box>li{
+    list-style: none;
+    padding-top: 5px;
+}
+.p-description{
+    margin-top: 8px;
 
+}
+.footer-title{
+
+}
